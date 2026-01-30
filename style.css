@@ -4,13 +4,15 @@ body, html {
   color: #777;
   line-height: 1.8;
 }
-.top{
-    padding: 20px 20px;
-}
 .bar{
-    background-color: #fff;
+    background-color: #eceaea;
     display: flex;
     gap: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 50px;
 }
 .logo{
     text-align: center;
@@ -24,26 +26,21 @@ body, html {
 }
 
 .bgimg-1 {
-  background-image: url('/images/image-copy-9.png');
+  background-image: url('/images/image\ copy\ 2.png');
   min-height: 100%;
   background-position: top;
 }
 
 .bgimg-2 {
   background-image: url("/images/image\ copy\ 6.png");
-  min-height: 400px;
+  min-height: 600px;
+  opacity: 0.6;
 }
 
 .bgimg-3 {
   background-image: url("/images/image\ copy\ 7.png");
-  min-height: 400px;
-}
-
-.w3-wide {
-    letter-spacing: 10px;
-}
-.w3-hover-opacity {
-    cursor: pointer;
+  min-height: 500px;
+  opacity: 0.6;
 }
 
 .contentdetails {
@@ -152,7 +149,7 @@ body, html {
 
 .project-card h3 {
     margin-top: 0;
-    color: #0077cc;
+    color: #6a6a6a;
 }
 
 .project-card p {
@@ -230,7 +227,7 @@ body, html {
 .submit-btn {
   align-self: flex-end;
   padding: 10px 20px;
-  background-color: #000;
+  background-color: #333;
   color: #fff;
   font-size: 1rem;
   border: none;
@@ -242,5 +239,12 @@ body, html {
 }
 
 .submit-btn:hover {
-  background-color: #333;
+  background-color: #000;
+}
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
 }
