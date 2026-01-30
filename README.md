@@ -9,7 +9,7 @@ Welcome to my personal portfolio website! This website showcases my projects, sk
 - **Responsive Design**: Works on any device, including desktops, tablets, and smartphones.
 - **Location Map**: Embedded Google Map showing my location in **Nyarugenge, Kigali**.
 - **Contact Section**: Links to social media platforms like WhatsApp, Instagram, and LinkedIn.
-- 
+
 ## Projects
 
 1. **Voting System**
@@ -19,7 +19,7 @@ Welcome to my personal portfolio website! This website showcases my projects, sk
 2. **Chat Application**
    - Multi-client chat with end-to-end encryption, file sharing, and JavaFX interface.
    - **Technologies** Java, JavaFX
-   - 
+     
 3. **Children's Foundation Database**
    - Database project to manage children's information at a foundation.
    - **Technologies:** SQL Server
