@@ -18,9 +18,20 @@ a{
     text-decoration: none;
 }
 .logo{
-    text-align: center;
-    padding: 350px;
+    padding-top: 550px;
+    padding-left: 800px;
 }
+.cynthy{
+  background-color: #000;
+  color: #fff;
+  padding: large;
+  font-size: 30px;
+  
+}
+p{
+  font-size: 15px;
+}
+
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
   background-position: center;
@@ -83,6 +94,9 @@ a{
   text-align: center;
   margin-bottom: 10px;
 }
+#hea3{
+  font-size: 16px;
+}
 
 .tit {
   text-align: center;
@@ -105,9 +119,10 @@ a{
 }
 
 .projects-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
 }
 
@@ -115,7 +130,7 @@ a{
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: 300px;
+    width: 500px;
     padding: 20px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -130,11 +145,6 @@ a{
     line-height: 1.4;
 }
 
-.project-card .tech {
-    font-weight: bold;
-    margin-top: 10px;
-    color: #333;
-}
 
 .project-card:hover {
     transform: translateY(-5px);
@@ -219,4 +229,54 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+      .stats-container {
+    flex-direction: column;
+  }
+
+  .stat-item {
+    margin-bottom: 20px;
+  }
+    .about-container {
+    flex-direction: column; 
+    text-align: center;
+  }
+
+  .about-text, .about-image {
+    flex: 1;
+  }
+    .contact-content {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .contact-info {
+    flex: 2;
+  }
+
+  .contact-form {
+    flex: 3;
+  }
+
+  .form-row {
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .form-row input {
+    flex: 1;
+  }
+}
+
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
 }
