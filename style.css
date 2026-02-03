@@ -16,10 +16,12 @@ body, html {
 }
 a{
     text-decoration: none;
+    color: #6a6a6a;
 }
 .logo{
-    padding-top: 550px;
-    padding-left: 800px;
+    padding-top: 450px;
+    padding-left: 600px;
+    padding-bottom: 300px;
 }
 .cynthy{
   background-color: #000;
@@ -105,7 +107,6 @@ p{
 }
 
 .projects-section {
-    padding: 50px;
     background-color: #f9f9f9;
     font-family: Arial, sans-serif;
 }
@@ -116,21 +117,25 @@ p{
     margin-bottom: 40px;
     color: #333;
     opacity: 0.6;
+    margin-top: 20px;
 }
 
 .projects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 20px;
     justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
 }
 
 .project-card {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: 500px;
+    width: 350px;
     padding: 20px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -232,6 +237,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  body{
+    margin: 10px;
+  }
     .projects-container {
         flex-direction: column;
         align-items: center;
